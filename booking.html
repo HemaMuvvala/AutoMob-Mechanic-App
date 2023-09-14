@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css"> 
+    <link rel="stylesheet" href="booking.css"> 
+    <title>Booking</title>
+</head>
+<body>
+    <div class="nav">
+        <a class="active" href="home.html">AutoMob-Mechanic</a>
+        <a href="services.html">Services</a>
+        <a href="booking.html">Booking </a>
+        <a href="http://mail.google.com">contact@automob.co.in </a>
+        <a href="#">999-999-9999</a>
+      </div>
+      <h2>BOOK YOUR SERVICE</h2>
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4" style="padding-left: 100px;">
+				Name <input type="text" class="form-control form-group" placeholder="Hema Muvvala" required>
+                Email<input type="email" class="form-control form-group" placeholder="Muvvalahema123@gmail.com" required>
+                Phone Number
+                <input type="number" class="form-control form-group" placeholder="8247431333" required>
+                
+				Select Service <select class="form-control form-group" required>
+                    <option>Select one option</option>
+					<option>preventive Maintainance Service</option>
+					<option>Body Repair Service</option>
+					<option>Car Care Service</option>
+				</select>
+                Car Make <select class="form-control form-group" required>
+                    <option>Select one option</option>
+					<option>Mahindra</option>
+                    <option>Honda</option>
+                    <option>Hyundari</option>
+                    <option>Ford</option>
+                    <option>Toyota</option>
+                    <option>Honda</option>
+				</select>
+                Car model <input type="text" class="form-control form-group" placeholder="Enter model of the car" required>
+                Fuel Type 
+                <div>
+                    <input type="radio" name="fuel" vlaue="petrol">Petrol
+                    <input type="radio" name="fuel" vlaue="Diesel">Diesel
+                    <input type="radio" name="fuel" vlaue="LPG">LPG
+                    <input type="radio" name="fuel" vlaue="Others">Others
+                </div>
+
+				
+			</div>
+            <div class="col-md-6 offset-md-2" style="padding-top: 100px; padding-left: 100px;">
+                <img src="assets/booking.jpg" alt="not found" height="350" width="350">
+
+            </div>
+		</div>
+	</div>
+  </div>
+  <button id="but" onclick="location.href='booking-success.html'">Schedule your appointment</button>
+    <div class="foot">
+        <p>Copyright @ 2023 AutoMob-Mechanic.All rights Reserved.</p>
+      </div>
+    
+</body>
+</html>

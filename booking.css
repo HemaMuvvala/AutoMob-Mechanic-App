@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.nav {
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 16px;
+  }
+  .foot{
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 16px;
+    background-color: black;
+    clear: left;
+    padding: 1pt;
+    height: 40px;
+  }
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .nav a.active {
+      background-color: #199588;
+      color: white;
+    }
+
+    h2{
+        color: rgb(176, 12, 121);
+        text-align: center;
+    }
+    #but{
+        background-color:  rgb(176, 12, 121);
+        color: white;
+        border-radius: 10px;
+        height: 50px;
+        width: 300px;
+        text-align: center;
+        margin-left: 600px;
+        margin-bottom: 10px;
+    }
